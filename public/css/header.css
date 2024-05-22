@@ -177,6 +177,9 @@ nav ul {
     transition: .3s;
     z-index: 90;
 }
+header:has(>.ouvert ){
+    z-index: 1;
+}
 
 .panneau.ouvert{
     transform: translateX(0);
