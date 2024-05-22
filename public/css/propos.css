@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
   }
   
@@ -10,25 +10,16 @@
     box-sizing: border-box;
   }
   
-  .container::before {
-    content: "";
-    border-right: 5px solid black;
-    height: 60vh;
-    position: absolute;
-    left: 45%;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 2px;
-  }
 
 .right {
     font-family: "a-otf-ud-reimin-pr6n", sans-serif;
+    border-left: black solid 5px;
 }
 
 .left {
     font-family: "athena", sans-serif;
     font-weight:300;
+    border-right: black solid 5px;
 }
 
 main {

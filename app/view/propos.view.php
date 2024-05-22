@@ -1,5 +1,4 @@
 <main>
-<body>
   <div class="container">
     <div class="left">
       <p>L'éclat de saveur</p>
@@ -10,6 +9,4 @@
       <p>Le goût unique de BLOM vient du mélange de différentes saveurs distinguées telles que la fleur de cannelle, la fleur de sureau, ou même le poivre blanc.</p>
     </div>
   </div>
-</body>
-</html>
 </main>
