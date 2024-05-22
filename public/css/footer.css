@@ -11,12 +11,15 @@ footer{
     align-content: center;
    padding: 0 10%;
    position: absolute;
+   overflow: hidden;
+   font-size: 80%;
+   z-index: 100;
 }
 
 footer a{
     color: #1b212f;
 }
 .logo_inverse{
-    width: 90%;
+    width: 60%;
     height: auto;
 }

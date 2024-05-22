@@ -25,7 +25,6 @@ header{
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 100;
 
 }
 
@@ -176,6 +175,7 @@ nav ul {
     opacity: 1;
     filter: blur(0);
     transition: .3s;
+    z-index: 90;
 }
 
 .panneau.ouvert{
@@ -195,6 +195,7 @@ nav ul {
     opacity: 0;
     filter: blur(50px);
     transition: .3s;
+    z-index: 0;
 
 }
 
