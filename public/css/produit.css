@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+body{
+    background-color: #1B212F;
+    height: 100%;
+    width: 100%;
+}
+.Categorie{
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: #1B212F;
+    text-align: center;
+    padding: 15px;
+}
+.images{
+    margin:5px auto;
+    width: 80%;
+    background-color: #1B212F;
+    color: white;
+}
+.images>img{
+    width: 80%;
+    margin: 40px 5px;
+}
