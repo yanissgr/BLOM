@@ -13,7 +13,7 @@
   .container::before {
     content: "";
     border-right: 5px solid black;
-    height: 100vh;
+    height: 60vh;
     position: absolute;
     left: 45%;
     top: 0;
@@ -22,11 +22,15 @@
     width: 2px;
   }
 
-main {
+.right {
     font-family: "a-otf-ud-reimin-pr6n", sans-serif;
 }
 
-.slogan {
+.left {
     font-family: "athena", sans-serif;
     font-weight:300;
+}
+
+main {
+    z-index: 0;
 }
