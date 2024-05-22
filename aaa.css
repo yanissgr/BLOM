@@ -4,7 +4,7 @@
     width: 100%;
   }
   
-  .left, .right {
+  .left-section, .right-section {
     width: 45%;
     padding: 20px;
     box-sizing: border-box;
@@ -21,12 +21,3 @@
     margin: auto;
     width: 2px;
   }
-
-main {
-    font-family: "a-otf-ud-reimin-pr6n", sans-serif;
-}
-
-.slogan {
-    font-family: "athena", sans-serif;
-    font-weight:300;
-}
