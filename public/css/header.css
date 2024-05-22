@@ -6,87 +6,226 @@
     box-sizing: border-box;
 }
 
-header {
-
-    background-color: #1B212F;
+body {
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 110px;
-    width: 100vw;
+    align-content: center;
+    padding-top: 120px;
+}
 
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+}
+
+nav {
+
+    background-color: #1b212f;
+    text-align: center;
+    height: 100px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 12% 12% 50% 25%;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 1%;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    z-index: 100;
+    padding-right: 3%;
+
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    grid-column: 4/5;
+
+}
+
+.menu {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    transition: .5s;
+}
+
+.checkbox{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    height: 50px;
+    opacity: 0;
+}
+
+.menu .line1, .menu .line2, .menu .line3{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 1px;
+    transition: 0.3s;
+}
+
+.checkbox:checked ~ .menu, .checkbox:checked:hover ~ .menu{
+    gap: 0;
+}
+
+.checkbox:checked ~ .menu .line2{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.checkbox:checked ~ .menu .line1{
+    transform: rotate(45deg) translateY(4px);
+    transition: 0.3s;
+}
+
+.checkbox:checked ~ .menu .line3{
+    transform: rotate(-45deg) translateY(-4px);
+    transition: 0.3s;
+}
+
+.checkbox:hover ~ .menu{
+    gap: 12px;
+    transition: .5s;
+}
+
+
+.logo, .logo img{
+    width: auto;
+    height: 100px;
 }
 
 .logo{
-    width: 20%;
-    height: auto;
+    grid-column: 3/4;
 }
-
-.menu a{
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    justify-content: center;
-}
-
-.menu div{
-    background-color: white;
-    width: 40px;
-    height: 5px;
-    border-radius: 1px;
-}
-
-
 
 .panier{
-    width: 50px;
+    width: 40px;
     height: auto;
 }
 
-.panier img{
-    width: 40%;
+.recherche{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
-
-ul {
-        display: flex;
-    justify-content: flex-end;
-    gap: 20%;
-    align-items: center;
-    padding-right: 20px;
-    align-content: center;
-}
-
-
-input{
-    color: #1B212F;
+.recherche button{
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(to bottom left, #DAA520 , #e4d09c, #DAA520);
     border: none;
-    height: 25px;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+}
+
+.recherche input{
+    background-color: white;
+    border: none;
+    padding: 0 3px;
+    width: 85%;
+    height: 35px;
+    color: #1b212f;
+    font-family: "a-otf-ud-reimin-pr6n", sans-serif;
+    font-weight: 400;
+    border-radius: 5px 0 0 5px;
+}
+
+.recherche input:focus{
     outline: none;
 
 }
 
-.recherche{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-content: center;
-    width: 100%;
-    padding: 2px;
-    border-radius: 5px;
-    height: auto;
-    gap: 10px;
-    font-size: 160%;
+.recherche input:focus::placeholder{
+    opacity: 0;
 }
 
-button {
-    background: none;
-    border: none;
+.recherche input::placeholder{
+    color: #1b212f6b;
 }
 
-button:hover{}
-/* temporaire */
-button>img {
-    height: 1.5vw;
+
+/*******************************************************************MENU BURGER********************************************/
+
+.menu_burger.ouvert{
+    opacity: 1;
+    filter: blur(0);
+    transition: .3s;
+}
+
+.panneau.ouvert{
+    transform: translateX(0);
+    transition-delay: 0.3s;
+    transition: 0.5s;
+}
+
+.menu_burger{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.536);
+    opacity: 0;
+    filter: blur(50px);
+    transition: .3s;
+
+}
+
+.menu_burger ul{
+    background-image: url('/blom/public/images/header/menu.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 100%;
+    padding: 12% 0 0 5%;
+    transform: translateX(-110vw);
+    transition: 0.5s;
+
+
+}
+
+.menu_burger ul li{
+    margin-bottom: 5%;
+
+}
+
+.menu_burger ul li a{
+    color: rgb(188, 188, 188);
+    font-family: "a-otf-ud-reimin-pr6n", sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+    width: auto;
+    position: relative;
+}
+
+.menu_burger ul li a:hover{
+    color: white;
+
 }
