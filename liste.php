@@ -13,7 +13,6 @@ $currentPage = 'produit';
 
 $pdo = getDatabaseConnection();
 $produits= getProducts($pdo, $search);
-print_r($produits);
 
 
 ob_start();
