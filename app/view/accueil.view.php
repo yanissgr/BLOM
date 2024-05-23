@@ -10,10 +10,12 @@
 
 
         <input class="input" type="radio" name="slides">
-        <source src="" type="video/mp4" autoplay />
+        <video class="slide-img" autoplay loop muted playsinline>
+            <source src="public/images/accueil/pub.mp4" type="video/mp4">
+        </video>
 
 
-
+        
     </div>
 
     <script src="public/js/accueil.js"></script>
