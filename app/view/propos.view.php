@@ -1,3 +1,11 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>A propos</title>
+    <link rel="stylesheet" href="public/css/propos.css">
+</head>
+
 <main>
   <div class="container">
     <div class="left">
@@ -10,46 +18,49 @@
     </div>
   </div>
 
-  <div class ="notre">
-    <div class ="histoire">
-      <img src="">
-      <h1>
+  <div class="grosparent">
+    <div class="parent">
+      <div class ="histoire">
+        <img src="public/images/propos/vieux-fournitures-touristiques-pres-bloc-notes_23-2147793452.avif">
+        <h1>
     Notre histoire
 </h1>
-      <p>
-      Notre marque de bière vient de la traduction du mot floraison en Néerlandais
-      </p>
+        <p>
+        Notre marque de bière vient de la traduction du mot floraison en Néerlandais
+        </p>
 
-    </div>
+      </div>
 
-    <div class ="equipe">
-      <img src="">
-      <h1>
+      <div class ="equipe">
+        <img src="public/images/propos/groupe-personnes-souriantes-heureuses-regardant-vue-dessus-fond-blanc-illustration-vectorielle-plane_1284-78599.avif">
+        <h1>
     Notre équipe
 </h1>
-      <p>
-      Nous travaillons en 
-      étroite collaboration
-      avec un groupe de
-      Génie Biologique, qui
-      s’occupe de la bière et
-      nous-même, en MMI, qui
-      nous occupons de la
-      communication et du visuel
-      </p>
-      
-    </div>
+        <p>
+        Nous travaillons en 
+        étroite collaboration
+        avec un groupe de
+        Génie Biologique, qui
+        s’occupe de la bière et
+        nous-même, en MMI, qui
+        nous occupons de la
+        communication et du visuel
+        </p>
+        
+      </div>
 
-    <div class ="savoirfaire">
-      <img src="">
-      <h1>
+      <div class ="savoirfaire">
+        <img src="public/images/propos/savoirfaire.jpg">
+        <h1>
     Notre savoir-faire
 </h1>
-      <p>
+        <p>
 
-      </p>
-      
+        </p>
+        
+      </div>
     </div>
-
   </div>
 </main>
+
+</html>
