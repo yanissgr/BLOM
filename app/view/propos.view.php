@@ -9,4 +9,47 @@
       <p>Le goût unique de BLOM vient du mélange de différentes saveurs distinguées telles que la fleur de cannelle, la fleur de sureau, ou même le poivre blanc.</p>
     </div>
   </div>
+
+  <div class ="notre">
+    <div class ="histoire">
+      <img src="">
+      <h1>
+    Notre histoire
+</h1>
+      <p>
+      Notre marque de bière vient de la traduction du mot floraison en Néerlandais
+      </p>
+
+    </div>
+
+    <div class ="equipe">
+      <img src="">
+      <h1>
+    Notre équipe
+</h1>
+      <p>
+      Nous travaillons en 
+      étroite collaboration
+      avec un groupe de
+      Génie Biologique, qui
+      s’occupe de la bière et
+      nous-même, en MMI, qui
+      nous occupons de la
+      communication et du visuel
+      </p>
+      
+    </div>
+
+    <div class ="savoirfaire">
+      <img src="">
+      <h1>
+    Notre savoir-faire
+</h1>
+      <p>
+
+      </p>
+      
+    </div>
+
+  </div>
 </main>

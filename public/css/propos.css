@@ -6,8 +6,10 @@
   
   .left, .right {
     width: 45%;
-    padding: 20px;
+    padding: 100px;
     box-sizing: border-box;
+    margin: 150;
+
   }
   
 
@@ -23,3 +25,6 @@
     border-right: black solid 5px;
 }
 
+main {
+    z-index: -1;
+}
