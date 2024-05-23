@@ -58,7 +58,7 @@
             <ul>
                 <li>
 
-                    <form class="recherche" action="">
+                    <form class="recherche" action="liste.php" method="get">
                         <input type="text" name="barre_recherche" value="" placeholder="Blonde, fruitée ...">
                         <button type="submit"><img src="public/images/header/loupe.svg" alt="Loop"></button>
                     </form>
