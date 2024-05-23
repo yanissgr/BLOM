@@ -1,22 +1,19 @@
 <main>
 
-    <h1 class="titre">Découvrez nos dernières créations !</h1>
-
-    <div class="slider-container">
-
-        <input class="input" type="radio" name="slides" checked>
-        <img class="slide-img" src="public/images/accueil/dore.svg">
-        <a class="slide-bouton" href="">Commander dès maintenant</a>
+    <h1>Découvrez nos dernières créations !</h1>
 
 
-        <input class="input" type="radio" name="slides">
-        <video class="slide-img" autoplay loop muted playsinline>
-            <source src="public/images/accueil/pub.mp4" type="video/mp4">
-        </video>
+    <input class="input img" type="radio" name="slides" checked>
+    <img class="slide-img" src="public/images/accueil/dore.svg">
+    <a class="slide-bouton" href="">Commander dès maintenant</a>
 
 
-        
-    </div>
+    <input class="input video" type="radio" name="slides">
+    <video class="slide-img" autoplay loop muted playsinline>
+        <source src="public/images/accueil/pub.mp4" type="video/mp4">
+    </video>
+
+
 
     <script src="public/js/accueil.js"></script>
 
