@@ -12,7 +12,7 @@
             }
             ?>
 
-            <figure class="photo"><img src="public/images/bouteilles/<?= $photo ?>" alt="photo de <?= $produit['Nom'] ?>">
+            <img src="public/images/bouteilles/<?= $photo ?>" alt="photo de <?= $produit['Nom'] ?>" class="images">
                 <div class="infos">
                     <p class="nom">
                         <?= $produit['Nom'] ?>
