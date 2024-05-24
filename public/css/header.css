@@ -25,6 +25,7 @@ header{
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 100;
 
 }
 
@@ -79,6 +80,7 @@ nav ul {
     width: 40px;
     height: 50px;
     opacity: 0;
+    cursor: pointer;
 }
 
 .menu .line1, .menu .line2, .menu .line3{
@@ -175,11 +177,12 @@ nav ul {
 .menu_burger.ouvert{
     opacity: 1;
     filter: blur(0);
-    transition: .3s;
+    transition: filter .5s, opacity .5s;
     z-index: 90;
 }
-header:has(>.ouvert ){
-    z-index: 1;
+
+.menu_burger.ferme{
+    width: 0;
 }
 
 .panneau.ouvert{
@@ -198,7 +201,7 @@ header:has(>.ouvert ){
     background-color: rgba(0, 0, 0, 0.536);
     opacity: 0;
     filter: blur(50px);
-    transition: .3s;
+    transition: filter .5s, opacity .5s;
     z-index: 0;
 
 }

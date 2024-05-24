@@ -73,7 +73,7 @@
         <!-------------------------------------------------Menu Burger--------------------------------------------------->
 
 
-        <div class="menu_burger">
+        <div class="menu_burger ferme">
 
             <ul class="panneau">
 
