@@ -17,7 +17,7 @@
                     <p class="nom">
                         <?= $produit['Nom'] ?>
                     </p>
-                    <p class="groupe"><?= $produit['Description'] ?></p>
+                    <p class="groupe"><?= $produit['Prix'] ?>€</p>
                 </div>
         </div>
     <?php endforeach ?>

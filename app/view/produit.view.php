@@ -11,10 +11,9 @@
         <div class=Categorie>
             <p><?=($categories[$i]['nom']) ?></p>
             <div class= images>
-                <img src="public/images/produit/<?= $categories[$i]['image']?>" alt="<?= $categories[$i]['Prix']?>">
+                <img src="public/images/produit/<?= $categories[$i]['image']?>" alt="<?= $categories[$i]['nom']?>">
             </div>
         </div>
     <?php endfor ?>
-    <p>feur</p>
 
 </main>
