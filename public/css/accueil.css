@@ -11,3 +11,33 @@ main{
     top: 0;
 }
 
+main .slide-img{
+    width: 100vw;
+    height: auto;
+}
+
+main img{
+    display: none;
+}
+
+main input{
+    position: absolute;
+    bottom: 5%;
+    
+}
+
+main .input.video{
+    left: 49%;
+}
+
+main .input.img{
+    left: 51%;
+}
+
+main h1{
+    position: absolute;
+}
+
+main a{
+    position: absolute;
+}
