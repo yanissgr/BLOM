@@ -1,10 +1,12 @@
- 
-  body {
-    background: #1B212F;
-    font-size: 12px;
-  }
+ main {
+background-image: url('/blom/public/images/contact/beerbottle.png');
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+ }
   
-  body, button, input {
+  
+  button, input {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -17,16 +19,18 @@
   }
   
   .container {
-    flex: 0 1 700px;
+    flex: 0 1 1350px;
     margin: auto;
     padding: 10px;
-  
+ 
+ 
   }
   
   .screen {
     position: relative;
     background: #3e3e3e69;
-   backdrop-filter: blur(20px); 
+    backdrop-filter: blur(15px);
+    border-radius: 10px; 
   }
   
    

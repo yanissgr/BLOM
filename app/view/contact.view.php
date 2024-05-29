@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Nous contacer</title>
-    <link rel="stylesheet" href="public/css/contact.css">
-</head>
-
-
-
-</head>
+<main>
 
 <div class="background">
     <div class="container">

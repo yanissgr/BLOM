@@ -1,10 +1,10 @@
 <?php
 //1 Données
-$title = "accueil";
-$css = "accueil.css";
+$title = "contact";
+$css = "contact.css";
 
 //2 Générer Vue
-$currentPage = 'accueil';
+$currentPage = 'contact';
 ob_start();
 include 'app/view/contact.view.php';
 $content = ob_get_clean();
