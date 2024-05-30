@@ -31,6 +31,9 @@ main {
 main .grosparent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: start;
+  align-content: start;
   gap: 20px;
   margin: 50px 0;
 }
@@ -41,7 +44,7 @@ main .grosparent > div {
 
 main .histoire img {
   height: auto;
-  width: 50%;
+  width: 25%;
 }
 
 main .equipe img {
@@ -51,5 +54,18 @@ main .equipe img {
 
 main .savoirfaire img {
   height: auto;
-  width: 50%;
+  width: 25%;
+
+}
+
+main .histoire {
+  border: 3px solid ;
+}
+
+main .equipe {
+  border: 3px solid ;
+}
+
+main .savoirfaire {
+  border: 3px solid ;
 }

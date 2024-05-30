@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="public/css/<?= $css ?>" rel="stylesheet">
-    <title><?php echo($title) ?></title>
+    <title><?php echo ($title) ?></title>
 
     <link href="public/css/header.css" rel="stylesheet">
     <link href="public/css/footer.css" rel="stylesheet">
@@ -124,13 +124,19 @@
             </ul>
 
 
+            <div class="promo">
+                <a class="promo1" href="">
+                    <img src="public/images/accueil/4saisons.png">
+                    <h2>Collection Saisonnière</h2>
+                    <p><b>29.99€</b> -10%</p>
+                </a>
 
-            <a class="promo" hef="">
-                <img src="public/images/accueil/4saisons.png">
-                <h2>Collection Saisonnière</h2>
-                <p><b>29.99€</b> -10%</p>
-            </a>
-
+                <a class="promo2" href="">
+                    <img src="public/images/accueil/dore.svg">
+                    <h2>BLOM Dorée</h2>
+                    <p><b>8.25€</b> -25%</p>
+                </a>
+            </div>
 
 
         </div>

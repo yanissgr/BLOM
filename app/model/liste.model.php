@@ -8,3 +8,10 @@ function getProducts(PDO $pdo, $search){
     $produits=$stmt->fetchAll();
     return $produits;
 }
+function GetProdPoint(PDO $pdo)
+{
+    $stmt = $pdo->prepare('SELECT distinct * FROM produit WHERE produit.AchetablePoint= 1');
+    $stmt->execute();
+    $produits = $stmt->fetchAll();
+    return $produits;
+}
