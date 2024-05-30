@@ -1,0 +1,33 @@
+main{
+    margin: auto;
+    margin-top: 150px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 0.25fr;
+    grid-template-rows: 0.5fr 2fr 1fr 0.25fr ;
+    grid-template-areas: "A B""C C""D D""E E" ;
+}
+.images{
+    width: 50%;
+    grid-area: C;
+    margin: auto;
+}
+H1{
+    font-size: 5vw;
+    grid-area: A;
+    text-align: center;
+}
+H2{
+    font-size: 3vw;
+    grid-area: B;
+}
+#description{
+    font-size: 2vw;
+    grid-area: D;
+}
+button{
+    grid-area: E;
+    font-size: 1.7vw;
+    padding: 1%;
+    margin: auto;
+}
