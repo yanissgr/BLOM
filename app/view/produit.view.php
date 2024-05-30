@@ -2,8 +2,8 @@
     <?php
     $categories = array(
         0 => array('nom' => 'Nos offres', 'image' => 'reduction.png', 'lien' =>''),
-        1 => array('nom' => 'Nos lots', 'image' => 'pack.png', 'lien' =>''),
-        2 => array('nom' => 'Produits individuels', 'image' => 'unique.png', 'lien' =>''),
+        1 => array('nom' => 'Nos lots', 'image' => 'pack.png', 'lien' =>'liste.php?barre_recherche=Pack'),
+        2 => array('nom' => 'Produits individuels', 'image' => 'unique.png', 'lien' =>'liste.php?barre_recherche=Simple'),
         3 => array('nom' => 'Points BLOM', 'image' => 'points.png', 'lien' =>'liste.php?barre_recherche=Point')
     );
     for ($i = 0; $i < 4; $i++) : ?>
