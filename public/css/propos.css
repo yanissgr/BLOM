@@ -1,3 +1,7 @@
+main{
+  background-color: #F8F3D9;
+}
+
 main .container {
   display: flex;
   justify-content: center;
@@ -16,12 +20,19 @@ main .right {
   font-family: "a-otf-ud-reimin-pr6n", sans-serif;
   border-left: black solid 2px;
   height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main .left {
   font-family: "athena", sans-serif;
   font-weight: 300;
   border-right: black solid 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
 }
 
 main {
@@ -57,7 +68,8 @@ main .equipe img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  font-family: "a-otf-ud-reimin-pr6n", sans-serif;
 }
 
 main .savoirfaire img {
