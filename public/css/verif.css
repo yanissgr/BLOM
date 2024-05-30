@@ -1,0 +1,13 @@
+main{
+    background-color: #F8F3D9;
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+}
+
+body footer, body header{
+    display: none;
+}
