@@ -14,6 +14,10 @@ $currentPage = 'produit';
 $pdo = getDatabaseConnection();
 if ($search == "Point") {
     $produits = GetProdPoint($pdo);
+}else if ($search == "Simple") {
+    $produits = GetProdSolo($pdo);
+}else if ($search == "Pack") {
+    $produits = GetProdPack($pdo);
 }else{
     $produits= getProducts($pdo, $search);
 }
