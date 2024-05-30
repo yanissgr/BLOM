@@ -126,15 +126,15 @@
 
             <div class="promo">
                 <a class="promo1" href="">
-                    <img src="public/images/accueil/4saisons.png">
-                    <h2>Collection Saisonnière</h2>
-                    <p><b>29.99€</b> -10%</p>
+                    <img src="public/images/bouteilles/default.png">
+                    <h2>Collection Chaude</h2>
+                    <p><b>15.3 €</b> -15%</p>
                 </a>
 
                 <a class="promo2" href="">
-                    <img src="public/images/accueil/doree.svg">
-                    <h2>BLOM Dorée</h2>
-                    <p><b>8.25€</b> -25%</p>
+                    <img src="public/images/bouteilles/default.png">
+                    <h2>BLOM Printemps</h2>
+                    <p><b>8.5€</b> -15%</p>
                 </a>
             </div>
 
