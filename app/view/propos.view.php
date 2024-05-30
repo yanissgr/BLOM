@@ -19,14 +19,14 @@
   </div>
 
   <div class="grosparent">
-    <div class="parent">
+    
       <div class ="histoire">
         <img src="public/images/propos/vieux-fournitures-touristiques-pres-bloc-notes_23-2147793452.avif">
         <h1>
     Notre histoire
 </h1>
         <p>
-        Notre marque de bière vient de la traduction du mot floraison en Néerlandais
+        Notre marque de bière vient de la traduction du mot floraison en Néerlandais. Elle inspire la richesse née de la nature transforméé en bière.
         </p>
 
       </div>
@@ -50,12 +50,12 @@
       </div>
 
       <div class ="savoirfaire">
-        <img src="public/images/propos/savoirfaire.jpg">
+        <img src="public/images/propos/savoirfairee.jpg">
         <h1>
     Notre savoir-faire
 </h1>
         <p>
-
+BLOM comporte un savoir faire unique ! Notre équipe s'investit tout autant dans la création de la bière que dans sa communication
         </p>
         
       </div>
