@@ -40,11 +40,7 @@
         Nous travaillons en 
         étroite collaboration
         avec un groupe de
-        Génie Biologique, qui
-        s’occupe de la bière et
-        nous-même, en MMI, qui
-        nous occupons de la
-        communication et du visuel
+        Génie Biologique et nous mêmes
         </p>
         
       </div>
