@@ -132,7 +132,7 @@
                 </a>
 
                 <a class="promo2" href="">
-                    <img src="public/images/accueil/dore.svg">
+                    <img src="public/images/accueil/doree.svg">
                     <h2>BLOM Dorée</h2>
                     <p><b>8.25€</b> -25%</p>
                 </a>
