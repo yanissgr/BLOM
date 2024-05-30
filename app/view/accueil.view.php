@@ -4,7 +4,7 @@
 
 
     <input id="checkbox1" type="checkbox" name="slides" onclick="toggleCheckboxes(this, 'checkbox2')">
-    <img class="slide-img" src="public/images/accueil/dore.svg">
+    <img class="slide-img" src="public/images/accueil/doree.svg">
     <a class="slide-bouton" href="produit.php">Commander dès maintenant</a>
 
 
