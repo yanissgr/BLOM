@@ -35,10 +35,6 @@ main .left {
   font-size: 50px;
 }
 
-main {
-  z-index: -1;
-}
-
 main .grosparent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
