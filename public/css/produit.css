@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 main{
     z-index: 0;
     display: grid;
@@ -11,11 +12,7 @@ main{
     width: 90%;
     margin: auto;
 }
-body{
-    background-color: #1B212F;
-    height: 100%;
-    width: 100%;
-}
+
 .Categorie{
     font-size: 30px;
     border-radius: 5px;

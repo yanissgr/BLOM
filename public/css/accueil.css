@@ -9,35 +9,94 @@ main{
     flex-direction: row;
     justify-content: center;
     top: 0;
+    background-color: black;
+    font-family: "a-otf-ud-reimin-pr6n", sans-serif;
 }
 
 main .slide-img{
     width: 100vw;
-    height: auto;
+    height: 100vh;
+    opacity: 0;
+    filter: blur(10px);
+    transition: 1s;
 }
 
 main img{
-    display: none;
+    transform: translateX(100vw);
+    transition: 1s;
+}
+
+main video{
+    transform: translateX(-100vw);
+    transition: 1s;
 }
 
 main input{
     position: absolute;
     bottom: 5%;
+    z-index: 20;
+    appearance: none;
+    width: 3%;
+    height: 8px;
+    background-color: rgba(148, 148, 148, 0.782);
+    border-radius: 3px;
+    cursor: pointer;
     
 }
 
-main .input.video{
-    left: 49%;
+main input:checked{
+    background-color: rgba(255, 255, 255, 0.827);
 }
 
-main .input.img{
-    left: 51%;
+main #checkbox2{
+    left: 48%;
+}
+
+main #checkbox1{
+    left: 52%;
+}
+
+main #checkbox1:checked ~ img, main #checkbox2:checked ~ video{
+    opacity: 1;
+    filter: blur(0);
+    transition: 1s;
+}
+
+main #checkbox1:checked ~ img{
+    transform: translateX(50vw);
+}
+
+main #checkbox2:checked ~ video{
+    transform: translateX(-50vw);
+}
+
+main h1, main a{
+    position: absolute;
+    color: white;
+    left: 8%;
+    z-index: 50;
 }
 
 main h1{
-    position: absolute;
+    top:50%;
+    text-shadow: black 4px 4px 3px;
 }
 
-main a{
-    position: absolute;
+main a {
+    top:65%;
+    font-family: "a-otf-ud-reimin-pr6n", sans-serif;
+    background-color: #1b212f;
+    text-align: center;
+    padding: 7px;
+    border-radius: 3px;
+    box-shadow: black 5px 5px 5px;
+    transition: .2s;
+}
+
+main a:hover{
+    background-color: white;
+    color:#1b212f;
+    transition: .2s;
+    border-radius: 10px;
+    box-shadow: none;
 }
