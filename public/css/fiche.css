@@ -7,6 +7,11 @@ main{
     grid-template-rows: 0.5fr 2fr 1fr 0.25fr ;
     grid-template-areas: "A B""C C""D D""E E" ;
 }
+
+body{
+    background-color: #F8F3D9;
+}
+
 .images{
     width: 50%;
     grid-area: C;
