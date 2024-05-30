@@ -4,7 +4,7 @@ $title = "produit";
 $css = "produit.css";
 
 //2 Générer Vue
-$currentPage = 'produit';
+$currentPage = 'Produit';
 ob_start();
 include 'app/view/produit.view.php';
 $content = ob_get_clean();
