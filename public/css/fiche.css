@@ -22,7 +22,7 @@ H1{
     grid-area: A;
     text-align: center;
 }
-H2{
+#prix{
     font-size: 3vw;
     grid-area: B;
 }

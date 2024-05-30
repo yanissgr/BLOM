@@ -125,13 +125,13 @@
 
 
             <div class="promo">
-                <a class="promo1" href="">
+                <a class="promo1" href="fiche.php?id=8">
                     <img src="public/images/bouteilles/default.png">
                     <h2>Collection Chaude</h2>
                     <p><b>15.3 €</b> -15%</p>
                 </a>
 
-                <a class="promo2" href="">
+                <a class="promo2" href="fiche.php?id=2">
                     <img src="public/images/bouteilles/default.png">
                     <h2>BLOM Printemps</h2>
                     <p><b>8.5€</b> -15%</p>
