@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 main{
     display: flex;
     flex-direction: row;
@@ -11,6 +15,7 @@ main{
     top: 0;
     background-color: black;
     font-family: "a-otf-ud-reimin-pr6n", sans-serif;
+    
 }
 
 main .slide-img{
