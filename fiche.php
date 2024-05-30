@@ -2,16 +2,16 @@
 //1 Données
 session_start();
 include 'app/model/ConnexionBDD.php';
-require_once 'app/model/liste.model.php';
+require_once 'app/model/fiche.model.php';
 
 $produitID = htmlspecialchars($_GET['id']);
 
 $pdo = getDatabaseConnection();
 
-$stmt= $pdo->prepare('SELECT distinct produit.* FROM produit WHERE produit.Reference= :id');
-$stmt->bindParam(':id', $produitID, PDO::PARAM_INT);
-$stmt->execute();
-$produit=$stmt->fetch();
+
+
+
+$produit = GetProdByRef($pdo, $produitID);
 
 
 $title = $produit["Nom"];

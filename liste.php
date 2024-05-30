@@ -12,8 +12,11 @@ $css = "liste.css";
 $currentPage = 'produit';
 
 $pdo = getDatabaseConnection();
-$produits= getProducts($pdo, $search);
-
+if ($search == "Point") {
+    $produits = GetProdPoint($pdo);
+}else{
+    $produits= getProducts($pdo, $search);
+}
 
 ob_start();
 include 'app/view/liste.view.php';
