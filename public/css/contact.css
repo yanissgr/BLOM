@@ -75,26 +75,24 @@ width: 100vw;
 }
 
 
+/* style pour les icons */ 
+ .icons img {
+   width: 10%;
+   height: 10%;
+ }
+
+ .icons ul {
+   list-style-type: none;
+ }
 
 
-.icons img {
-  width: 30px;
-  height: 30px;
-}
+ .icons ul li {
+   display: inline-block;
+ }
 
-.icons ul {
-  list-style-type: none;
-}
-
-
-.icons ul li {
-  display: inline-block;
-}
-
-#reseau {
-
-  text-align: center;
-}
+ #reseau {
+   align-items: center;
+ }
 
 
   /* text & content */
@@ -103,6 +101,7 @@ width: 100vw;
     margin-top: 25px;
     font-size: 14px;
     color: #ffffff;
+    font-family: "a-otf-ud-reimin-pr6n", sans-serif;
    }
  
 
@@ -127,8 +126,9 @@ width: 100vw;
   
   .app-contact {
     margin-top: auto;
-    font-size: 8px;
+    font-size: 12px;
     color: #ffffff;
+    font-family: "athena", sans-serif;
   }
   
   .app-form-group {

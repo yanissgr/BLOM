@@ -33,8 +33,8 @@
                            
                             <ul>
                                
-                                <li> <a href="#"><img src="/blom/public/images/icons/tiktok.png"><i class="TikTok"></i></a></li>
-                                <li><a href="https://www.instagram.com/blom.officiel/"><img src="/blom/public/images/icons/instagram-logo.png"><i class="instagram"></i></a></li>
+                                <li> <a href="#"><img src="public/images/icons/tiktok.png"><i class="TikTok"></i></a></li>
+                                <li><a href="https://www.instagram.com/blom.officiel/"><img src="public/images/icons/instagram-logo.png"><i class="instagram"></i></a></li>
                             </ul>
                         </div>
 
