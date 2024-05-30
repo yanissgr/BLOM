@@ -26,7 +26,7 @@
     Notre histoire
 </h1>
         <p>
-        Notre marque de bière vient de la traduction du mot floraison en Néerlandais. Elle inspire la richesse née de la nature transforméé en bière.
+        Notre marque de bière vient de la traduction du mot floraison en Néerlandais. Elle inspire la richesse née de la nature transformée en bière.
         </p>
 
       </div>

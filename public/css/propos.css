@@ -55,4 +55,17 @@ main .equipe img {
 main .savoirfaire img {
   height: auto;
   width: 25%;
+
+}
+
+main .histoire {
+  border: 3px solid ;
+}
+
+main .equipe {
+  border: 3px solid ;
+}
+
+main .savoirfaire {
+  border: 3px solid ;
 }
