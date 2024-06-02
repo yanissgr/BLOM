@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+session_start();
+
+require_once 'app/model/header.model.php';
+if (!isset($pdo)){
+include 'app/model/ConnexionBDD.php';
+}
+if (!isset($pdo)){
+    $pdo = getDatabaseConnection();
+}
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -125,17 +137,29 @@
 
 
             <div class="promo">
-                <a class="promo1" href="fiche.php?id=8">
-                    <img src="public/images/bouteilles/default.png">
-                    <h2>Collection Chaude</h2>
-                    <p><b>15.3 €</b> -15%</p>
-                </a>
+                <?php
+                $produit = GetReduc($pdo);
+                $i = 0;
+                foreach ($produit as $prod) :
+                    if ($i <= 2) :
+                        $i++;
 
-                <a class="promo2" href="fiche.php?id=2">
-                    <img src="public/images/bouteilles/default.png">
-                    <h2>BLOM Printemps</h2>
-                    <p><b>8.5€</b> -15%</p>
-                </a>
+                        if (isset($prod['image'])) {
+                            $photo = $prod['image'];
+                        } else {
+                            $photo = 'Default.png';
+                        }
+                ?>
+
+                        <a class="promo<?= $i ?>" href="fiche.php?id=<?= $prod['Reference'] ?>">
+                            <img src="public/images/bouteilles/<?= $photo ?>">
+                            <h2><?= $prod['Nom'] ?></h2>
+                            <p><b><?= $prod['Prix'] - ($prod['Prix'] * $prod['reduction'] / 100) ?>€</b> (<?= $prod['reduction'] ?>%)</p>
+                        </a>
+
+                <?php
+                    endif;
+                endforeach; ?>
             </div>
 
 
