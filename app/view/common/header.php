@@ -124,10 +124,6 @@ if (!isset($pdo)){
                 </li>
 
                 <li>
-                    <a href="brasseries.php">Nos Brasseries</a>
-                </li>
-
-                <li>
                     <a href="contact.php">Nous Contacter</a>
                 </li>
 
