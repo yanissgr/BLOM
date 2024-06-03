@@ -19,7 +19,7 @@
   <div class="grosparent">
     
       <div class ="histoire">
-        <img src="public/images/propos/vieux-fournitures-touristiques-pres-bloc-notes_23-2147793452.avif">
+      
         <h1>
     Notre histoire
 </h1>
@@ -30,7 +30,7 @@
       </div>
 
       <a href="trombi.php"> <div class ="equipe">
-        <img src="public/images/propos/groupe-personnes-souriantes-heureuses-regardant-vue-dessus-fond-blanc-illustration-vectorielle-plane_1284-78599.avif">
+       
        
     <h1> Notre équipe </h1> 
 
@@ -44,7 +44,7 @@
       </div>
       </a>
       <div class ="savoirfaire">
-        <img src="public/images/propos/savoirfairee.jpg">
+   
         <h1>
     Notre savoir-faire
 </h1>
