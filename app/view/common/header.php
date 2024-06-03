@@ -111,7 +111,7 @@ if (!isset($pdo)){
             <ul class="panneau">
 
                 <li>
-                    <a href="accueil.php">Accueil</a>
+                    <a href="index.php">Accueil</a>
                 </li>
 
                 <li>
