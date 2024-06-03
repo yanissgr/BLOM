@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F8F3D9;
 }
 
-main{
+main {
     z-index: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
     height: 100%;
     width: 90%;
     margin: 180px 0 110px 0;
     align-items: end;
 }
 
-.Categorie{
+.Categorie {
     font-size: 30px;
     text-align: center;
     width: 250px;
@@ -29,47 +29,55 @@ main{
     border-radius: 5px;
     display: flex;
     flex-direction: column-reverse;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     align-content: center;
     overflow: hidden;
     padding-bottom: 15%;
     box-shadow: black 3px 3px 7px;
+    opacity: 1;
+    transition: 1s;
 
 }
 
-.Categorie:hover{
+.Categorie:hover {
     transform: scale(0.97);
     box-shadow: none;
 }
 
+.Categorie.anime{
+    opacity: 0;
+    filter: blur(5px);
+    transition: 1s;
+}
 
-.Categorie img{
+
+.Categorie img {
     margin-top: 30%;
 }
 
-#lots{
+#lots {
     height: 230px;
     width: auto;
     margin: 0;
 }
 
-#unique{
+#unique {
     height: 230px;
     width: auto;
     margin: 0;
 }
 
-#points{
+#points {
     width: 60%;
 }
 
-#offres{
+#offres {
     height: 35%;
     width: 80%;
 }
 
-.line{
+.line {
     background-color: white;
     height: 3px;
     width: 30%;

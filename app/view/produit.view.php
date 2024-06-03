@@ -8,7 +8,7 @@
     );
     for ($i = 0; $i < 4; $i++) : ?>
         <a href="<?= ($categories[$i]['lien']) ?>">
-            <div class=Categorie>
+            <div class="Categorie anime">
                 <p><?= ($categories[$i]['nom']) ?></p>
                 <div class="line"></div>
                 <img id='<?= ($categories[$i]['id']) ?>' src="public/images/produit/<?= $categories[$i]['image'] ?>" alt="<?= $categories[$i]['nom'] ?>">
@@ -18,3 +18,5 @@
     <?php endfor ?>
 
 </main>
+
+<script src="public/js/anime.js"></script>
