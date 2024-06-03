@@ -14,7 +14,7 @@ document.getElementById("OUI").addEventListener("click", function() {
             // Enregistrez l'état de vérification de l'âge
             localStorage.setItem("ageVerified", "true");
             // Redirigez l'utilisateur vers la page d'accueil ou la page précédente
-            window.location.href = "accueil.php"; // Remplacez par la page souhaitée
+            window.location.href = "index.php"; // Remplacez par la page souhaitée
         });
 
         document.getElementById("NON").addEventListener("click", function() {
