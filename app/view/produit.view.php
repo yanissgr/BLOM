@@ -10,7 +10,7 @@
         <a href="<?= ($categories[$i]['lien']) ?>">
             <div class="Categorie anime">
                 <p><?= ($categories[$i]['nom']) ?></p>
-                <div class="line"></div>
+                <div class="line anime"></div>
                 <img id='<?= ($categories[$i]['id']) ?>' src="public/images/produit/<?= $categories[$i]['image'] ?>" alt="<?= $categories[$i]['nom'] ?>">
 
             </div>

@@ -2,7 +2,7 @@
 
 function getDatabaseConnection(){
 
-    $dsn = 'mysql:dbname=blom;host=cdce5547_2024_BLOM';
+    $dsn = 'mysql:dbname=cdce5547_2024_blom;host=localhost;charset=utf8';
     $username = 'cdce5547_2024_S2_admin';
     $password = 'MMI4ever@senart';
 
