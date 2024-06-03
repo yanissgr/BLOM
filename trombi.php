@@ -4,7 +4,7 @@ $title = "trombi";
 $css = "trombi.css";
 
 //2 Générer Vue
-$currentPage = 'Produit';
+$currentPage = 'trombi';
 ob_start();
 include 'app/view/trombi.view.php';
 $content = ob_get_clean();

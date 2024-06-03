@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 table {
     border-collapse: collapse;
   }
@@ -14,10 +20,10 @@ table {
 
   body {
     margin-top: 250px;
-  }
-
-  body{
     background-color: #F8F3D9;
   }
 
-  
+  main {
+   height: 100vh;
+   margin-bottom: 390px;
+  }
