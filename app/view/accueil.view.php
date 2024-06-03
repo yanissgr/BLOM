@@ -1,11 +1,11 @@
 <main>
 
-    <h1>Découvrez nos dernières créations !</h1>
+    <h1 class="titre anime">Découvrez nos dernières créations !</h1>
 
 
     <input id="checkbox1" type="checkbox" name="slides" onclick="toggleCheckboxes(this, 'checkbox2')">
     <img class="slide-img" src="public/images/accueil/doree.svg">
-    <a class="slide-bouton" href="produit.php">Commander dès maintenant</a>
+    <a class="bouton anime" href="produit.php">Commander dès maintenant</a>
 
 
     <input id="checkbox2" type="checkbox" name="slides" onclick="toggleCheckboxes(this, 'checkbox1')" checked>

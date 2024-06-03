@@ -15,6 +15,7 @@ if (!isset($pdo)){
 ?>
 
 <head>
+    <link rel="icon" href="public/images/header/Logo_Blom_Icone.png" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="public/css/<?= $css ?>" rel="stylesheet">
@@ -71,7 +72,7 @@ if (!isset($pdo)){
 <body>
     <header>
 
-        <nav class="nav anime">
+        <nav class="nav anime2">
             <div>
 
                 <input class="checkbox" type="checkbox" />
@@ -120,10 +121,6 @@ if (!isset($pdo)){
 
                 <li>
                     <a href="propos.php">A Propos</a>
-                </li>
-
-                <li>
-                    <a href="brasseries.php">Nos Brasseries</a>
                 </li>
 
                 <li>
