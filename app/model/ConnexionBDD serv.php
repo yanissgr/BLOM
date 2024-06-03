@@ -2,9 +2,9 @@
 
 function getDatabaseConnection(){
 
-    $dsn = 'mysql:dbname=blom;host=localhost;charset=utf8';
-    $username = 'root';
-    $password = '';
+    $dsn = 'mysql:dbname=blom;host=cdce5547_2024_BLOM';
+    $username = 'cdce5547_2024_S2_admin';
+    $password = 'MMI4ever@senart';
 
     try {
         $pdo = new PDO($dsn, $username, $password);
