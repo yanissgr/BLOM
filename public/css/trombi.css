@@ -4,7 +4,8 @@
     box-sizing: border-box;
   }
   
-  .case{
+  .case1 , .case2 , .case3 , .case4 , .case5{
+    margin: 50px;
     width: 350px; 
     height: 200px; 
     background-color: #fff; 
@@ -13,12 +14,32 @@
     margin: 10px; 
     display: inline-block; 
     text-align: center; 
-    display: flex;
-    justify-content: space-around;
-    display: inline-flex;
-    
+   display: grid;
+   
+  }
+
+  .case1 {
+    background-color: #F8F3D9;
     
   }
+
+  .case2 {
+    background-color: #F1A966;
+  }
+
+  .case3 {
+    background-color: #70965A;
+  }
+
+  .case4 {
+    background-color: #ED6A7A;
+  }
+
+  .case5 {
+    background-color:  #DAA520;
+  }
+ 
+  
   
   .case b {
     font-size: 18px; 
@@ -29,7 +50,7 @@
   
   body {
     margin-top: 250px;
-    background-color: #F8F3D9;
+    background-color: #FFFF;
   }
   
   main {
