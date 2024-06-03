@@ -145,11 +145,12 @@ nav ul {
 .recherche button{
     width: 35px;
     height: 35px;
-    background: linear-gradient(to bottom left, #DAA520 , #e4d09c, #DAA520);
+    background-color: white;
     border: none;
     padding: 5px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .recherche input{
