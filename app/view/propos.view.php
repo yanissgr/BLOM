@@ -29,10 +29,10 @@
 
       </div>
 
-      <div class ="equipe">
+      <a href="trombi.php"> <div class ="equipe">
         <img src="public/images/propos/groupe-personnes-souriantes-heureuses-regardant-vue-dessus-fond-blanc-illustration-vectorielle-plane_1284-78599.avif">
        
-   <a href="trombi.php"> <h1> Notre équipe </h1> </a>
+    <h1> Notre équipe </h1> 
 
         <p>
         Nous travaillons en 
@@ -42,7 +42,7 @@
         </p>
         
       </div>
-
+      </a>
       <div class ="savoirfaire">
         <img src="public/images/propos/savoirfairee.jpg">
         <h1>

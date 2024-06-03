@@ -80,6 +80,7 @@ main .histoire {
 
 main .equipe {
   border: 3px solid ;
+
 }
 
 main .savoirfaire {
@@ -89,4 +90,8 @@ main .savoirfaire {
 main .grosparent>div:hover {
 box-shadow: 10px 5px 5px rgba(87, 87, 87, 0.386);
 border: 5px solid;
+}
+
+main .equipe{
+  color: black;
 }
