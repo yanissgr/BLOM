@@ -85,6 +85,7 @@ main h1, main a{
 main h1{
     top:50%;
     text-shadow: black 4px 4px 3px;
+    transition: 1s;
 }
 
 main a {
@@ -95,7 +96,7 @@ main a {
     padding: 7px;
     border-radius: 3px;
     box-shadow: black 5px 5px 5px;
-    transition: .2s;
+    transition: 2s;
 }
 
 main a:hover{
@@ -104,4 +105,10 @@ main a:hover{
     border: solid white 1px;
     transition: .2s;
     box-shadow: none;
+}
+
+.titre.anime, .bouton.anime{
+opacity: 0;
+filter: blur(10px);
+transform: translateX(-50px);
 }

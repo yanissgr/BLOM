@@ -2,15 +2,17 @@
     display: inline-block;
     width: 22.5%;
     margin: 1%;
-    border: 2px solid black;
-    background-color: rgb(205 205 205 / 81%);
+    border-radius: 7px 30px;
+    background-color: #1b212f;
     text-align: center;
     margin-bottom: 10px;
     padding: 1%;
     box-shadow: 7px 7px 4px 0px gray;
     vertical-align: top;
     height: 290px;
-    color: black;
+    color: white;
+    padding: 2px;
+    transition: 0.2s;
 }
 .images{
     width: 100%;
@@ -22,4 +24,13 @@ main{
 }
 body{
     background-color: #F8F3D9;
+}
+
+.boite:hover{
+    background:none;
+    border: #1b212f 2px solid;
+    color: #1b212f;
+    padding: 0;
+    transition: 0.2s;
+
 }
