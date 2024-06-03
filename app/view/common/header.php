@@ -70,7 +70,7 @@ if (!isset($pdo)){
 <body>
     <header>
 
-        <nav>
+        <nav class="nav anime">
             <div>
 
                 <input class="checkbox" type="checkbox" />
@@ -172,3 +172,4 @@ if (!isset($pdo)){
     </header>
 
     <script src="public/js/header.js"></script>
+    <script src="public/js/anime.js"></script>
