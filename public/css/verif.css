@@ -2,10 +2,56 @@ main{
     background-color: #F8F3D9;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 body{
     height: 100vh;
+}
+
+.container{
+ background-color: #1b212f;
+ color: white;
+ font-family: "athena", sans-serif;
+ text-align: center;
+ width: 40%;
+ height: 35%;
+border-radius: 5px;
+box-shadow: black 5px 5px 30px;
+
+}
+
+.container img{
+    width: 200px;
+    height: auto;
+}
+
+.container h2{
+margin: 3% 0 9% 0;
+font-size: 200%;
+}
+
+.container button{
+    background-color: #F8F3D9;
+    color: #1b212f;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 110%;
+    margin: 0 5%;
+    transition: 0.2s;
+}
+
+.container button:hover{
+    background-color: #1b212f;
+    color: #F8F3D9;
+    border: solid #F8F3D9 1px;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 body footer, body header{
