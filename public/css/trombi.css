@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  body {
+    margin-top: 250px;
+    background-color: #F8F3D9;
+  }
+
+  main {
+   height: 100vh;
+   margin-bottom: 390px;
+  }

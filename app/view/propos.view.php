@@ -31,9 +31,9 @@
 
       <div class ="equipe">
         <img src="public/images/propos/groupe-personnes-souriantes-heureuses-regardant-vue-dessus-fond-blanc-illustration-vectorielle-plane_1284-78599.avif">
-        <h1>
-    Notre équipe
-</h1>
+       
+   <a href="trombi.php"> <h1> Notre équipe </h1> </a>
+
         <p>
         Nous travaillons en 
         étroite collaboration
