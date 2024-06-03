@@ -15,6 +15,7 @@ if (!isset($pdo)){
 ?>
 
 <head>
+    <link rel="icon" href="public/images/header/Logo_Blom_Icone.png" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="public/css/<?= $css ?>" rel="stylesheet">
