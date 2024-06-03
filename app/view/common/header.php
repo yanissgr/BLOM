@@ -84,7 +84,7 @@ if (!isset($pdo)){
 
             </div>
 
-            <a class="logo" href="accueil.php"><img src="public/images/header/Logo_Blom.svg" alt="logo"></a>
+            <a class="logo" href="index.php"><img src="public/images/header/Logo_Blom.svg" alt="logo"></a>
 
 
             <ul>
