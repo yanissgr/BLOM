@@ -4,19 +4,26 @@
     box-sizing: border-box;
   }
   
-  .case1 , .case2 , .case3 , .case4 , .case5 , .case6 , .case7 , .case8 {
-    width: 150px; 
-    height: 150px; 
+  .case{
+    width: 350px; 
+    height: 200px; 
     background-color: #fff; 
     border: 1px solid #ddd; 
     padding: 10px; 
     margin: 10px; 
     display: inline-block; 
     text-align: center; 
+    display: flex;
+    justify-content: space-around;
+    display: inline-flex;
+    
+    
   }
   
   .case b {
     font-size: 18px; 
+    display: flex;
+    justify-content: center;
   }
   
   
