@@ -8,7 +8,7 @@ require_once 'app/model/header.model.php';
 if (!isset($pdo)){
 include 'app/model/ConnexionBDD.php';
 }
-if (!isset($pdo)){
+if (!isset($pdo)){ 
     $pdo = getDatabaseConnection();
 }
 ?>
