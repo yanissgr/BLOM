@@ -2,8 +2,9 @@
 <html lang="en">
 
 <?php
+if (!isset($pdo)){ 
 session_start();
-
+}
 require_once 'app/model/header.model.php';
 if (!isset($pdo)){
 include 'app/model/ConnexionBDD.php';
