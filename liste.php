@@ -18,6 +18,8 @@ if ($search == "Point") {
     $produits = GetProdSolo($pdo);
 }else if ($search == "Pack") {
     $produits = GetProdPack($pdo);
+}else if ($search == "Reduction") {
+    $produits = GetProdReduc($pdo);
 }else{
     $produits= getProducts($pdo, $search);
 }

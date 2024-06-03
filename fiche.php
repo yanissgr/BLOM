@@ -1,6 +1,6 @@
 <?php
 //1 Données
-session_start();
+    session_start();
 include 'app/model/ConnexionBDD.php';
 require_once 'app/model/fiche.model.php';
 
@@ -24,5 +24,4 @@ include 'app/view/fiche.view.php';
 $content = ob_get_clean();
 
 //3 inclure le layout
-
 include 'app/view/common/layout.php';

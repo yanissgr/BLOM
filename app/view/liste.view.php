@@ -18,7 +18,7 @@
                     <p class="nom">
                         <?= $produit['Nom'] ?>
                     </p>
-                    <p class="groupe"><?= $produit['Prix'] ?>€</p>
+                    <p class="groupe"><?= $produit['Prix']- ($produit['Prix']*$produit['reduction']/100)?> €</p>
                 </div>
             </div>
         </a>

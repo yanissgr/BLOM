@@ -10,6 +10,7 @@
     box-shadow: 7px 7px 4px 0px gray;
     vertical-align: top;
     height: 290px;
+    color: black;
 }
 .images{
     width: 100%;
@@ -17,4 +18,8 @@
 main{
     margin:0 15% ;
     margin-top: 150px;
+    margin-bottom: 130px;
+}
+body{
+    background-color: #F8F3D9;
 }

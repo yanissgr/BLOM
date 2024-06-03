@@ -30,4 +30,11 @@ function GetProdPack(PDO $pdo)
     $produits=$stmt->fetchAll();
     return $produits;
 }
+function GetProdReduc(PDO $pdo)
+{
+    $stmt = $pdo->prepare('SELECT distinct produit.* FROM produit  Join associer on produit.reference=associer.reference join mot_clé on associer.Mot_clé=mot_clé.mot_clé WHERE produit.reduction >0 order by produit.prix, produit.nom;');
+    $stmt->execute();
+    $produits=$stmt->fetchAll();
+    return $produits;
+}
 

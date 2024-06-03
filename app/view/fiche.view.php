@@ -6,7 +6,7 @@
         $photo = 'Default.png';
     }
     ?>
-    <H1><?= $produit["Nom"] ?></H1> <H2><?= $produit["Prix"] ?>€</H2>
+    <H1><?= $produit["Nom"] ?></H1> <H2 id=prix><?= $produit['Prix']- ($produit['Prix']*$produit['reduction']/100)?> €</H2>
     <img src="public/images/bouteilles/<?= $photo ?>" alt="<?= ($produit["Nom"]) ?>" class="images">
     
     <p id=description><?= $produit["Description"] ?></p>
