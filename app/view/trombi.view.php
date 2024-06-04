@@ -1,42 +1,112 @@
 <main>
-    <div class="case1">
-        <b>Valentin</b>
-        <br>18 ans
-        <br>Chef de groupe MMI
-    </div>
-    <div class="case2">
-        <b>Yanis</b>
-        <br>18 ans
-        <br>Web designer, Graphiste et Monteur
-    </div>
-    <div class="case3">
-        <b>Sami</b>
-        <br>19 ans
-        <br>Monteur
-    </div>
-    <div class="case4">
-        <b>Lucas</b>
-        <br>18 ans
-        <br>Community Manager
-    </div>
-    <div class="case5">
-        <b>Johanne</b>
-        <br>19 ans
-        <br>Chef de groupe GB
-    </div>
-    <div class="case5">
-        <b>Adrien</b>
-        <br>18 ans
-        <br>Concepteur de bière
-    </div>
-    <div class="case5">
-        <b>Titouan</b>
-        <br>18 ans
-        <br>Concepteur de bière
-    </div>
-    <div class="case5">
+
+    <div class="case">
+
         <b>Doriann</b>
-        <br>18 ans
-        <br>Concepteur de bière
+
+        <div class="verso">
+           
+            <p>18 ans</p>
+           
+
+            <p>Concepteur de bière</p>
+        </div>
+
     </div>
+
+    <div class="case va">
+
+        <b>Valentin</b>
+
+        <div class="verso">
+           
+            <p>18 ans</p>
+           
+
+            <p>Chef de groupe MMI, Développeur</p>
+        </div>
+
+    </div>
+
+
+    <div class="case">
+        <b>Titouan</b>
+
+        <div class="verso">
+           
+            <p>18 ans</p>
+           
+
+            <p>Concepteur de bière</p>
+        </div>
+
+    </div>
+
+    <div class="case ya">
+        <b>Yanis</b>
+
+        <div class="verso">
+           
+            <p>19 ans</p>
+           
+
+            <p>Web Designer, Graphiste</p>
+        </div>
+
+    </div>
+
+
+    <div class="case sa">
+        <b>Sami</b>
+
+        <div class="verso">
+           
+            <p>19 ans</p>
+           
+
+            <p>Monteur, Web Designer</p>
+        </div>
+
+    </div>
+
+    <div class="case">
+        <b>Adrien</b>
+
+        <div class="verso">
+           
+            <p>18 ans</p>
+           
+
+            <p>Concepteur de bière</p>
+        </div>
+
+    </div>
+
+    <div class="case lu">
+        <b>Lucas</b>
+
+        <div class="verso">
+           
+            <p>18 ans</p>
+           
+            <p>Community Manager</p>
+        </div>
+
+    </div>
+
+
+    <div class="case">
+        <b>Johanne</b>
+
+        <div class="verso">
+           
+            <p>19 ans</p>
+           
+            <p>Chef de groupe GB</p>
+        </div>
+
+    </div>
+
+
+
 </main>
