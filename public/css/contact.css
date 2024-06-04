@@ -6,8 +6,6 @@ width: 100vw;
  }
   
   
-.icons
-
 
 
   button, input {
@@ -26,8 +24,7 @@ width: 100vw;
     flex: 0 1 950px;
     margin: auto;
     padding: 10px;
- 
- 
+  
   }
   
   .screen {
@@ -60,14 +57,14 @@ width: 100vw;
 
 
 
-.social-icons a {
+.social-icons {
   color: #fff;
   margin-right: 10px;
 }
 
 
 #reseaux {
-  display: block;
+  display: flex;
   margin-block-start: 1em;  
   margin-block-end: 1em;
   margin-inline-start: 35px;

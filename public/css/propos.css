@@ -46,47 +46,43 @@ main .grosparent {
   width: 80%;
 }
 
-main .grosparent > div {
-  padding: 20px;
-}
 
-main .histoire img {
+main #histoire img {
   height: auto;
   width: 25%;
 }
 
-main .equipe img {
+main #equipe img {
   height: auto;
   width: 21%;
 }
-main .grosparent>div{
-  height: 100%;
+main .grp{
+  padding: 20px;
+  height: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   font-family: "a-otf-ud-reimin-pr6n", sans-serif;
+  color: white;
+  background-color: #1b212f;
+  border-radius: 30px 0;
+  transform: rotate(1deg);
+  transition: 0.5s;
 }
 
-main .savoirfaire img {
+main .grp:hover{
+  transform: rotate(5deg);
+}
+
+main #savoirfaire img {
   height: auto;
   width: 15.5%;
 
 }
 
-main .histoire {
-  border: 3px solid ;
-}
 
-main .equipe {
-  border: 3px solid ;
-}
-
-main .savoirfaire {
-  border: 3px solid ;
-}
-
-main .grosparent>div:hover {
+/* main .grosparent>div:hover {
 box-shadow: 10px 5px 5px rgba(87, 87, 87, 0.386);
 border: 5px solid;
-}
+} */
