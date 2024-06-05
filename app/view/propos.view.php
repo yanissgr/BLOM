@@ -1,24 +1,17 @@
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>A propos</title>
-  <link rel="stylesheet" href="public/css/propos.css">
-</head>
-
 <main>
   <div class="container">
-    <div class="left">
+    <div class="left anime">
       <p>L'éclat de saveur</p>
     </div>
-    <div class="right">
+    <div class="line anime"></div>
+    <div class="right anime">
       <p>BLOM est une marque indépendante de bière traditionnelle d'origine belge. Nous cherchons à nous présenter de manière calme et subtile, pour nous rapprocher des saisons qui sont le thème principal de notre marque. Le goût unique de BLOM vient du mélange de différentes saveurs distinguées telles que la fleur de cannelle, la fleur de sureau, ou même le poivre blanc.</p>
     </div>
   </div>
 
   <div class="grosparent">
 
-    <div id="histoire" class="grp">
+    <div id="histoire" class="grp anime">
 
       <h1>
         Notre histoire
@@ -31,7 +24,7 @@
     </div>
 
     <a href="trombi.php">
-      <div id="equipe" class="grp">
+      <div id="equipe" class="grp anime">
 
 
         <h1> Notre équipe </h1>
@@ -45,7 +38,7 @@
 
       </div>
     </a>
-    <div id="savoirfaire" class="grp">
+    <div id="savoirfaire" class="grp anime">
 
       <h1>
         Notre savoir-faire
@@ -58,6 +51,14 @@
     </div>
   </div>
 
+  <div class="vulga">
+
+    <h1>Comment obtenons-nous cette bière si unique ?</h1>
+
+    <img src="public/images/propos/vulgarisation.svg">
+
+  </div>
+
 </main>
 
-</html>
+<script src="public/js/anime.js"></script>

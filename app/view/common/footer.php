@@ -1,8 +1,8 @@
 <footer>
 
-<a href="contact.php">Charte de Confidentialité</a>
+<a href="confi.php">Charte de Confidentialité</a>
 <p>|</p>
-<a href="">Cookies</a>
+<a href="cookies.php">Cookies</a>
 
 <a class="logo_inverse" href="accueil.php">
 <img src="public/images/footer/logo_inverse.svg" alt="">

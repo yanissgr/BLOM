@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+padding: 150px 5%;
+background-color: #F8F3D9;
+font-size: 110%;
+}

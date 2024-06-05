@@ -1,5 +1,7 @@
-main{
+main {
   background-color: #F8F3D9;
+  padding-top: 150px;
+  overflow-x: hidden;
 }
 
 main .container {
@@ -13,22 +15,28 @@ main .right {
   width: 45%;
   padding: 100px;
   box-sizing: border-box;
-  margin: 150px 0;
+  transition: 1s;
 }
 
 main .right {
   font-family: "a-otf-ud-reimin-pr6n", sans-serif;
-  border-left: black solid 2px;
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+main .line {
+  width: 3px;
+  height: 500px;
+  background-color: #1b212f;
+  border-radius: 3px;
+  transition: .5s;
+}
+
 main .left {
   font-family: "athena", sans-serif;
   font-weight: 300;
-  border-right: black solid 3px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +54,7 @@ main .grosparent {
   width: 80%;
 }
 
-main .grp{
+main .grp {
   padding: 20px;
   height: 20vw;
   display: flex;
@@ -57,11 +65,12 @@ main .grp{
   color: white;
   background-color: #1b212f;
   border-radius: 35px 5px;
-  transform: rotate(1deg);
-  transition: 0.5s;
+  transform: rotate(0);
+  margin: 25% 0;
+  transition: 1s;
 }
 
-main .grp:hover{
+main .grp:hover {
   transform: rotate(5deg);
 }
 
@@ -71,8 +80,50 @@ main #savoirfaire img {
 
 }
 
-.line{
-   width: 20%;
-   height: 3px;
-   background-color: white;
+.line {
+  width: 20%;
+  height: 3px;
+  background-color: white;
+}
+
+.line.anime {
+  transform: scaleY(0);
+  opacity: 0;
+}
+
+.left.anime {
+  transform: translateX(-100px);
+  opacity: 0;
+  filter: blur(10px);
+}
+
+.right.anime {
+  transform: translateX(100px);
+  opacity: 0;
+  filter: blur(10px);
+}
+
+.grp.anime {
+  transform: translateY(150px);
+  opacity: 0;
+  filter: blur(10px);
+}
+
+.vulga {
+  width: 100%;
+  background-color: #1b212f;
+  padding: 8% 0;
+  text-align: center;
+}
+
+.vulga img {
+  width: 80%;
+}
+
+.vulga h1{
+  color: white;
+  font-size: 250%;
+  text-align: left;
+  margin: 0 0 10% 5% ;
+  font-weight: 500;
 }
