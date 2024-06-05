@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .case{
     width: 300px;
     height: 250px;
@@ -16,6 +20,7 @@
     margin-bottom: 10%;
     cursor: default ;
     padding: 3px;
+    box-shadow: black 5px 5px 10px;
     transition: 1s;
 }
 
@@ -118,4 +123,16 @@ font-size: 130%;
     position: absolute;
     filter: blur(10px);
     transition: 1s;
+}
+
+.anime.haut.case{
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(-100px);
+}
+
+.anime.bas.case{
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(100px);
 }
