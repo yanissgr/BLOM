@@ -23,6 +23,7 @@
       <h1>
         Notre histoire
       </h1>
+      <div class="line"></div>
       <p>
         Notre marque de bière vient de la traduction du mot floraison en Néerlandais. Elle inspire la richesse née de la nature transformée en bière.
       </p>
@@ -34,7 +35,7 @@
 
 
         <h1> Notre équipe </h1>
-
+        <div class="line"></div>
         <p>
           Nous travaillons en
           étroite collaboration
@@ -49,13 +50,14 @@
       <h1>
         Notre savoir-faire
       </h1>
+      <div class="line"></div>
       <p>
         BLOM comporte un savoir faire unique ! Notre équipe s'investit tout autant dans la création de la bière que dans sa communication
       </p>
 
     </div>
   </div>
-  </div>
+
 </main>
 
 </html>
