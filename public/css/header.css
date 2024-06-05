@@ -50,6 +50,7 @@ nav {
 
 }
 
+
 .nav.anime2{
 animation: header 0.5s linear 1 forwards;
 }
@@ -257,9 +258,8 @@ nav ul {
 }
 
 .promo img{
-    height: 80%;
-    width: auto;
-    margin: 10%;
+    width: 100%;
+    height: auto;
 }
 
 .promo1, .promo2{
