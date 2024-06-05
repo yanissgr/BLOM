@@ -1,6 +1,6 @@
 <main>
 
-    <div class="case">
+    <div class="anime haut case">
 
         <b>Doriann</b>
 
@@ -14,7 +14,7 @@
 
     </div>
 
-    <div class="case va">
+    <div class="anime haut case va">
 
         <b>Valentin</b>
 
@@ -29,7 +29,7 @@
     </div>
 
 
-    <div class="case">
+    <div class="anime haut case">
         <b>Titouan</b>
 
         <div class="verso">
@@ -42,7 +42,7 @@
 
     </div>
 
-    <div class="case ya">
+    <div class="anime haut case ya">
         <b>Yanis</b>
 
         <div class="verso">
@@ -56,7 +56,7 @@
     </div>
 
 
-    <div class="case sa">
+    <div class="anime bas case sa">
         <b>Sami</b>
 
         <div class="verso">
@@ -69,7 +69,7 @@
 
     </div>
 
-    <div class="case">
+    <div class="anime bas case">
         <b>Adrien</b>
 
         <div class="verso">
@@ -82,7 +82,7 @@
 
     </div>
 
-    <div class="case lu">
+    <div class="anime bas case lu">
         <b>Lucas</b>
 
         <div class="verso">
@@ -95,7 +95,7 @@
     </div>
 
 
-    <div class="case">
+    <div class="anime bas case">
         <b>Johanne</b>
 
         <div class="verso">
@@ -110,3 +110,5 @@
 
 
 </main>
+
+<script src="public/js/anime.js"></script>
