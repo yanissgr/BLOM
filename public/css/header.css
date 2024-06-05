@@ -257,8 +257,9 @@ nav ul {
 }
 
 .promo img{
-    width: 100%;
-    height: auto;
+    height: 80%;
+    width: auto;
+    margin: 10%;
 }
 
 .promo1, .promo2{
