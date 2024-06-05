@@ -120,7 +120,7 @@ if (!isset($pdo)){
                 </li>
 
                 <li>
-                    <a href="propos.php">A Propos</a>
+                    <a href="propos.php">À Propos</a>
                 </li>
 
                 <li>
