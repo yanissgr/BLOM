@@ -85,6 +85,7 @@ width: 100vw;
 
  .icons ul li {
    display: inline-block;
+   margin-right: 10px;
  }
 
  #reseau {

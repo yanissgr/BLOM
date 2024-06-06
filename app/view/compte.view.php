@@ -36,7 +36,7 @@
 			
 			<div class="overlay-panel overlay-right">
 				<h1>Création de compte</h1>
-				<p>Il ne vous reste plus qu'à renseigner vos informations</p>
+				<p>Nouveau chez B L O M ? Créez votre compte en quelques étapes</p>
 				<button class="ghost" id="signUp">Inscription</button>
 			</div>
 		</div>

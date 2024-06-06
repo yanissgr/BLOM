@@ -24,7 +24,7 @@
 
 
                         <div class="app-contact">
-                            <p>CONTACT INFO : +00 00 00 00 00 </p>
+                            <p>CONTACT INFO : 01 45 17 10 00 </p>
                         <p>E-mail INFO : blom.biere@gmail.com</p>
 
                         </div>
