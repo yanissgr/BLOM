@@ -16,6 +16,7 @@ main {
     height: 100%;
     width: 90%;
     margin: 180px 0 110px 0;
+    flex-wrap: wrap;
     align-items: end;
 }
 
@@ -35,6 +36,7 @@ main {
     overflow: hidden;
     padding-bottom: 15%;
     box-shadow: black 3px 3px 7px;
+    margin-bottom: 10px;
     transition: 1s;
 
 }
@@ -62,13 +64,13 @@ main {
 }
 
 #lots {
-    height: 230px;
+    height: 65%;
     width: auto;
     margin: 0;
 }
 
 #unique {
-    height: 230px;
+    height: 65%;
     width: auto;
     margin: 0;
 }

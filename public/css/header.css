@@ -299,7 +299,7 @@ nav ul {
     background-repeat: no-repeat;
     width: 80%;
     height: 100%;
-    padding: 12% 0 0 5%;
+    padding: 180px 0 0 5%;
     transform: translateX(-110vw);
     transition: 0.5s;
 
@@ -327,5 +327,13 @@ nav ul {
 
 
 @media (max-width:1024px) {
+
+.promo{
+    display: none;
+}
+
+header{
+    font-size: 80%;
+}
 
 }

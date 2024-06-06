@@ -41,7 +41,7 @@ main input{
     bottom: 5%;
     z-index: 20;
     appearance: none;
-    width: 3%;
+    width: 45px;
     height: 8px;
     background-color: rgba(148, 148, 148, 0.782);
     border-radius: 3px;
@@ -111,4 +111,12 @@ main a:hover{
 opacity: 0;
 filter: blur(10px);
 transform: translateX(-50px);
+}
+
+@media (max-width:1024px) {
+
+main{
+    font-size: 80%;
+}
+
 }
