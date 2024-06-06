@@ -57,6 +57,7 @@ main .grosparent {
 main .grp {
   padding: 20px;
   height: 20vw;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,4 +127,39 @@ main #savoirfaire img {
   text-align: left;
   margin: 0 0 10% 5% ;
   font-weight: 500;
+}
+
+@media (max-width:1024px) {
+
+  .container{
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+  }
+
+  main .left, main .right{
+    width: 80%;
+    height: 100%;
+    padding: 0;
+  }
+
+  main .line {
+    height: 3px;
+    width: 500px;
+  }
+  
+  main .grp{
+    width: 150px;
+    height: 200px;
+    
+  }
+
+  main .grp h1{
+    font-size: 15px;
+  }
+
+  main .grp p{
+    font-size: 10px;
+  }
+
 }
