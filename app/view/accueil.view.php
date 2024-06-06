@@ -13,6 +13,7 @@
         <source src="public/images/accueil/pub.mp4" type="video/mp4">
     </video>
 
+
     <script src="public/js/accueil.js"></script>
 
 </main>

@@ -36,6 +36,8 @@ main video{
     transition: 1s;
 }
 
+
+
 main input{
     position: absolute;
     bottom: 5%;
@@ -54,11 +56,11 @@ main input:checked{
 }
 
 main #checkbox2{
-    left: 48%;
+    left: 47%;
 }
 
 main #checkbox1{
-    left: 52%;
+    left: 53%;
 }
 
 main #checkbox1:checked ~ img, main #checkbox2:checked ~ video{
@@ -117,6 +119,14 @@ transform: translateX(-50px);
 
 main{
     font-size: 80%;
+}
+
+main #checkbox2{
+    left: 43%;
+}
+
+main #checkbox1{
+    left: 57%;
 }
 
 }
