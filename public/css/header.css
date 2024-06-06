@@ -148,7 +148,7 @@ nav ul {
 
 .logo, .logo img{
     width: auto;
-    height: 100px;
+    height: 110%;
 }
 
 .logo{
@@ -322,5 +322,10 @@ nav ul {
 
 .menu_burger ul li a:hover{
     color: white;
+
+}
+
+
+@media (max-width:1024px) {
 
 }
