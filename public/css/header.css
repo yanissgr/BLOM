@@ -142,7 +142,7 @@ nav ul {
 
 .checkbox:hover ~ .menu{
     gap: 12px;
-    transition: .5s;
+    transition: .3s;
 }
 
 
@@ -259,8 +259,8 @@ nav ul {
 }
 
 .promo img{
-    width: auto;
-    height: 18vw;
+    width: 100%;
+    height: auto;
 }
 
 .promo1, .promo2{
