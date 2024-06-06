@@ -142,7 +142,7 @@ nav ul {
 
 .checkbox:hover ~ .menu{
     gap: 12px;
-    transition: .5s;
+    transition: .3s;
 }
 
 
