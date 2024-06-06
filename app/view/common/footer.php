@@ -4,7 +4,7 @@
 <p>|</p>
 <a href="cookies.php">Cookies</a>
 
-<a class="logo_inverse" href="index.php">
+<a class="logo_inverse" href="accueil.php">
 <img src="public/images/footer/logo_inverse.svg" alt="">
 </a>
 
