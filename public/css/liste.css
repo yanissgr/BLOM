@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .boite {
     display: grid;
     border-radius: 7px 30px;
