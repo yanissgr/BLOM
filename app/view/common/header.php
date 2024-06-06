@@ -1,22 +1,16 @@
-<?php
-if (!isset($_COOKIE['ageVerified']) || $_COOKIE['ageVerified'] !== 'true') {
-    header('Location: verif.php');
-    exit();
-}
-?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <?php
-if (!isset($pdo)){ 
-session_start();
+if (!isset($pdo)) {
+    session_start();
 }
 require_once 'app/model/header.model.php';
-if (!isset($pdo)){
-include 'app/model/ConnexionBDD.php';
+if (!isset($pdo)) {
+    include 'app/model/ConnexionBDD.php';
 }
-if (!isset($pdo)){ 
+if (!isset($pdo)) {
     $pdo = getDatabaseConnection();
 }
 ?>
