@@ -1,10 +1,3 @@
-<?php
-if (!isset($_COOKIE['ageVerified']) || $_COOKIE['ageVerified'] !== 'true') {
-    header('Location: verif.php');
-    exit();
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -93,7 +86,7 @@ if (!isset($pdo)){
 
             </div>
 
-            <a class="logo" href="index.php"><img src="public/images/header/Logo_Blom.svg" alt="logo"></a>
+            <a class="logo" href="accueil.php"><img src="public/images/header/Logo_Blom.svg" alt="logo"></a>
 
 
             <ul>
@@ -119,7 +112,7 @@ if (!isset($pdo)){
             <ul class="panneau">
 
                 <li>
-                    <a href="index.php">Accueil</a>
+                    <a href="accueil.php">Accueil</a>
                 </li>
 
                 <li>
