@@ -255,11 +255,12 @@ nav ul {
     text-align: center;
     padding-bottom: 8%;
     box-shadow: black 5px 5px 20px;
+    gap:10px;
 }
 
 .promo img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 18vw;
 }
 
 .promo1, .promo2{

@@ -1,4 +1,4 @@
-<body>
+<main>
 
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
@@ -44,4 +44,4 @@
 </div>
 
 
-</body>
+</main>
