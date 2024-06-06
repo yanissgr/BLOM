@@ -82,7 +82,6 @@ nav ul {
     align-items: center;
     align-content: center;
     flex-direction: row;
-    grid-column: 4/5;
 
 }
 
@@ -336,4 +335,28 @@ header{
     font-size: 80%;
 }
 
+nav{
+    padding: 0 5%;
+}
+
+.recherche input, .recherche button{
+height: 25px;
+}
+
+.recherche button img{
+    width: 70%;
+}
+
+.logo{
+    height: 80%;
+}
+
+nav ul{
+    gap:10px;
+}
+
+.menu{
+    width: 30px;
+    height: 50px;
+}
 }

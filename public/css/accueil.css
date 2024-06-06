@@ -56,11 +56,11 @@ main input:checked{
 }
 
 main #checkbox2{
-    left: 47%;
+    left: 46%;
 }
 
 main #checkbox1{
-    left: 53%;
+    left: 51%;
 }
 
 main #checkbox1:checked ~ img, main #checkbox2:checked ~ video{
@@ -122,11 +122,11 @@ main{
 }
 
 main #checkbox2{
-    left: 43%;
+    left: 39%;
 }
 
 main #checkbox1{
-    left: 57%;
+    left: 53%;
 }
 
 }
