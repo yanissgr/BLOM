@@ -1,6 +1,5 @@
 .boite {
     display: grid;
-    
     border-radius: 7px 30px;
     background-color: #1b212f;
     text-align: center;
@@ -8,6 +7,7 @@
     height: 290px;
     color: white;
     padding: 2px;
+    margin: 5px;
     transition: 0.2s;
 }
 .images{
