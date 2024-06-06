@@ -1,38 +1,131 @@
-main{
-    margin: auto;
-    margin-top: 150px;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 0.25fr;
-    grid-template-rows: 0.5fr 2fr 1fr 0.25fr ;
-    grid-template-areas: "A B""C C""D D""E E" ;
-}
-
-body{
+main {
     background-color: #F8F3D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+    gap: 5%;
+    color: white;
 }
 
-.images{
-    width: 50%;
-    grid-area: C;
-    margin: auto;
+main img {
+    width: auto;
+    height: 600px;
+    box-shadow: 10px 10px 5px #1b212f;
+    transition: 1s;
 }
-H1{
-    font-size: 5vw;
-    grid-area: A;
-    text-align: center;
+
+main .infos {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 600px;
+    background-color: #1b212f;
+    padding: 25px;
+    border-radius: 60px 5px;
+    gap: 10%;
+    transition: 1s;
+
 }
-#prix{
-    font-size: 3vw;
-    grid-area: B;
+
+main .infos H1 {
+    font-family: "athena", sans-serif;
+    font-weight: 300;
+    font-size: 350%;
 }
-#description{
-    font-size: 2vw;
-    grid-area: D;
+
+main .infos H2 {
+    font-size: 300%;
 }
-button{
-    grid-area: E;
-    font-size: 1.7vw;
-    padding: 1%;
-    margin: auto;
+
+main .infos .middle {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+}
+
+main .infos p {
+    font-size: 110%;
+}
+
+.infos button {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #F8F3D9;
+    border-radius: 3px;
+    width: 150px;
+    height: 60px;
+    font-size: 100%;
+    font-family: "a-otf-ud-reimin-pr6n", sans-serif;
+    font-weight: 800;
+    transition: 0.2s;
+}
+
+.infos button:hover {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    transition: 0.2s;
+}
+
+.infos select {
+    background-color: #F8F3D9;
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    color: #1b212f;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.infos select:focus{
+    background: none;
+    border: solid 2px white;
+    color: white;
+    transition: 0.2s;
+}
+
+.infos select:focus option{
+    color: black;
+    background-color: #F8F3D9;
+   
+}
+
+.images.anime{
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(-100px);
+    transition: 1s;
+}
+
+.infos.anime{
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(100px);
+    transition: 1s;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.line{
+    background-color: white;
+    height: 3px;
+    width: 40%;
+    border-radius: 1px;
 }
