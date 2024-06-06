@@ -1,3 +1,10 @@
+<?php
+if (!isset($_COOKIE['ageVerified']) || $_COOKIE['ageVerified'] !== 'true') {
+    header('Location: verif.php');
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

@@ -11,7 +11,8 @@
 </main>
 
 <script>
- document.getElementById("OUI").addEventListener("click", function() {
+    document.getElementById("OUI").addEventListener("click", function() {
+        document.cookie = "ageVerified=true; path=/; max-age=" + 60 * 60 * 24; // Cookie valable 1 jour
         window.location.href = "index.php";
     });
 
