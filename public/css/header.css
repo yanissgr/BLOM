@@ -217,6 +217,10 @@ nav ul {
     width: 0;
 }
 
+.menu_burger.ferme .promo{
+    transform: scale(0);
+}
+
 .panneau.ouvert{
     transform: translateX(0);
     transition-delay: 0.3s;
@@ -250,16 +254,15 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     text-align: center;
-    padding-bottom: 8%;
     box-shadow: black 5px 5px 20px;
-    gap:10px;
+
 }
 
 .promo img{
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
