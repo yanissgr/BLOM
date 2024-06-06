@@ -5,6 +5,7 @@
     text-align: center;
     box-shadow: 7px 7px 4px 0px gray;
     height: 290px;
+    width: 220px;
     color: white;
     padding: 2px;
     margin: 5px;
@@ -15,17 +16,17 @@
     margin: auto;
 }
 main{
-    margin:0 15% ;
-    margin-top: 150px;
-    margin-bottom: 130px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%;
     background-color: #F8F3D9;
+    padding: 200px 0;
 }
-
 .boite:hover{
     background:none;
     border: #1b212f 2px solid;
