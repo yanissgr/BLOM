@@ -3,8 +3,10 @@
     <div class="container">
         <img src="public/images/header/Logo_Blom.svg" alt="">
         <h2>Avez-vous plus de 18 ans ?</h2>
+        <div class="btn-container">
         <button id="OUI">OUI</button>
         <button id="NON">NON</button>
+        </div>
         <p id="message" style="color: red; display: none;">Vous devez avoir plus de 18 ans pour accéder à ce site.</p>
     </div>
 
