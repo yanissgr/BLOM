@@ -20,10 +20,10 @@ main {
 }
 
 .Categorie {
-    font-size: 30px;
+    font-size: 3vw;
     text-align: center;
-    width: 250px;
-    height: 400px;
+    width: 15vw;
+    height: 30vw;
     background-color: #1B212F;
     color: white;
     border-radius: 5px;
@@ -62,15 +62,15 @@ main {
 }
 
 #lots {
-    height: 230px;
+    height: 8vw;
     width: auto;
-    margin: 0;
+    /* margin: ; */
 }
 
 #unique {
-    height: 230px;
+    height: 10vw;
     width: auto;
-    margin: 0;
+    /* margin: 0; */
 }
 
 #points {

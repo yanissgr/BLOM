@@ -148,7 +148,7 @@ nav ul {
 
 .logo, .logo img{
     width: auto;
-    height: 100px;
+    height: 100%;
 }
 
 .logo{
@@ -167,8 +167,8 @@ nav ul {
 }
 
 .recherche button{
-    width: 35px;
-    height: 35px;
+    width: 5vh;
+    height: 5vh;
     background-color: white;
     border: none;
     padding: 5px;
@@ -181,8 +181,8 @@ nav ul {
     background-color: white;
     border: none;
     padding: 0 3px;
-    width: 85%;
-    height: 35px;
+    width: 55%;
+    height: 5vh;
     color: #1b212f;
     font-family: "a-otf-ud-reimin-pr6n", sans-serif;
     font-weight: 400;
@@ -299,7 +299,7 @@ nav ul {
     background-repeat: no-repeat;
     width: 80%;
     height: 100%;
-    padding: 12% 0 0 5%;
+    padding: 105px 0 0 5%;
     transform: translateX(-110vw);
     transition: 0.5s;
 
@@ -315,7 +315,7 @@ nav ul {
     color: rgb(188, 188, 188);
     font-family: "a-otf-ud-reimin-pr6n", sans-serif;
     font-weight: 400;
-    font-size: 110%;
+    font-size: 2vw;
     width: auto;
     position: relative;
 }
@@ -323,4 +323,7 @@ nav ul {
 .menu_burger ul li a:hover{
     color: white;
 
+}
+h2{
+    font-size: 2vw;
 }
