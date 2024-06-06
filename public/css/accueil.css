@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
     overflow-x: hidden;
 }
 
@@ -15,7 +15,6 @@ main{
     top: 0;
     background-color: black;
     font-family: "a-otf-ud-reimin-pr6n", sans-serif;
-    
     
 }
 
