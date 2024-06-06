@@ -76,22 +76,23 @@ width: 100vw;
  .icons img {
    width: 10%;
    height: 10%;
+   
  }
 
  .icons ul {
    list-style-type: none;
+   display: flex;
+   align-content: center;
  }
 
 
  .icons ul li {
-   display: inline-block;
-   margin-right: 10px;
- }
-
- #reseau {
+   display: flex;
+   margin-right: 5px;
    align-items: center;
  }
 
+ 
 
   /* text & content */
 
@@ -123,8 +124,8 @@ width: 100vw;
   }
   
   .app-contact {
-    margin-top: auto;
-    font-size: 12px;
+    margin-top: 10px;
+    font-size: 15px;
     color: #ffffff;
     font-family: "athena", sans-serif;
   }
