@@ -18,7 +18,7 @@
       </h1>
       <div class="line"></div>
       <p>
-        Notre marque de bière vient de la traduction du mot floraison en Néerlandais. Elle inspire la richesse née de la nature transformée en bière.
+        Le nom de notre marque de bière vient de la traduction du mot floraison en Néerlandais. Elle inspire la richesse née de la nature transformée en bière.
       </p>
 
     </div>
@@ -33,7 +33,7 @@
           Nous travaillons en
           étroite collaboration
           avec un groupe de
-          Génie Biologique et nous mêmes
+          Génie Biologique
         </p>
 
       </div>
