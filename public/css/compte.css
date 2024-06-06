@@ -1,31 +1,29 @@
-
-
-body {
-    background-image: url('/blom/public/images/compte/buber.png');
+body{
+	background-image: url('/blom/public/images/compte/buber.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+}
 
-   
-
+main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-	height: 100vh;
-	margin: -20px 0 50px;
+	margin: 4.5vw 0 0;
+}
+body, html{
+	height: 100%;
 }
 
-
-h1 {
+main h1 {
 	font-weight: bold;
 	margin: 0;
 }
 
 
 
-p {
+main p {
 	font-size: 14px;
 	font-weight: 100;
 	line-height: 20px;
@@ -33,18 +31,18 @@ p {
 	margin: 20px 0 30px;
 }
 
-span {
+main span {
 	font-size: 12px;
 }
 
-a {
+main a {
 	color: #333;
 	font-size: 14px;
 	text-decoration: none;
 	margin: 15px 0;
 }
 
-button {
+main button {
 	border-radius: 20px;
 
 	background-color: #1b212f;
@@ -57,20 +55,20 @@ button {
 	transition: transform 80ms ease-in;
 }
 
-button:active {
+main main button:active {
 	transform: scale(0.95);
 }
 
-button:focus {
+main button:focus {
 	outline: none;
 }
 
-button.ghost {
+main button.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
 }
 
-form {
+main form {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
@@ -81,7 +79,7 @@ form {
 	text-align: center;
 }
 
-input {
+main input {
 	background-color: #eee;
 	border: none;
 	padding: 12px 15px;
@@ -89,7 +87,7 @@ input {
 	width: 100%;
 }
 
-.container {
+main .container {
 	backdrop-filter: blur(15px);
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
@@ -101,14 +99,14 @@ input {
 	min-height: 480px;
 }
 
-.form-container {
+main .form-container {
 	position: absolute;
 	top: 0;
 	height: 100%;
 
 }
 
-.sign-in-container {
+main .sign-in-container {
 	left: 0;
 	width: 50%;
 	z-index: 2;
@@ -116,7 +114,7 @@ input {
 
 
 
-.sign-up-container {
+main .sign-up-container {
 	left: 0;
 	width: 50%;
 	opacity: 0;
@@ -127,7 +125,7 @@ input {
 
 
 
-.overlay-container {
+main .overlay-container {
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -139,7 +137,7 @@ input {
 }
 
 
-.overlay {
+main .overlay {
 	backdrop-filter: blur(15px);
 	
 	color: #FFFFFF;
@@ -152,7 +150,7 @@ input {
 
 
 
-.overlay-panel {
+main .overlay-panel {
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -169,18 +167,18 @@ input {
 
 
 
-.overlay-right {
+main .overlay-right {
 	right: 0;
 	
 }
 
 
 
-.social-container {
+main .social-container {
 	margin: 20px 0;
 }
 
-.social-container a {
+main .social-container a {
 	border: 1px solid #DDDDDD;
 	border-radius: 50%;
 	display: inline-flex;
