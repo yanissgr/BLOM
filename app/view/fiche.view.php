@@ -1,7 +1,7 @@
 <main>
     <?php
     if (isset($produit['image'])) {
-        $photo = $produit['image'];
+        $photo = "2".$produit['image'];
     } else {
         $photo = 'Default.png';
     }
