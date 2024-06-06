@@ -25,17 +25,17 @@
 
                         <div class="app-contact">
                             <p>CONTACT INFO : 01 45 17 10 00 </p>
-                        <p>E-mail INFO : blom.biere@gmail.com</p>
+                            <p>E-mail INFO : blom.biere@gmail.com</p>
 
                         </div>
 
                         <div class="icons">
-                           
-                            <ul>
-                               
-                                <li> <a href="#"><img src="public/images/icons/tiktok.png"><i class="TikTok"></i></a></li>
-                                <li><a href="https://www.instagram.com/blom.officiel/"><img src="public/images/icons/instagram-logo.png"><i class="instagram"></i></a></li>
-                            </ul>
+
+
+
+                            <a href="#"><img src="public/images/icons/tiktok.png"></a>
+                            <a href="https://www.instagram.com/blom.officiel/"><img src="public/images/icons/instagram-logo.png"></a>
+
                         </div>
 
 

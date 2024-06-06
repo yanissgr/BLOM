@@ -1,13 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Vérifiez si l'utilisateur a déjà passé la vérification de l'âge
-    if (!localStorage.getItem("ageVerified")) {
-        console.log("Redirection vers la page de vérification de l'âge.");
-        // Redirigez vers la page de vérification de l'âge
-        window.location.href = "verif.php";
-    } else {
-        console.log("Utilisateur déjà vérifié.");
-    }
-});
 
 
 document.addEventListener("DOMContentLoaded", function() {
