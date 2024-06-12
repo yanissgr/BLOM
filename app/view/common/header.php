@@ -136,10 +136,10 @@ if (!isset($pdo)) {
 
             <div class="promo">
                 <?php
-                $produit = GetReduc($pdo);
+                $produit = GetReduc($pdo);//cherhcer les produits en reduc
                 $i = 0;
                 foreach ($produit as $prod) :
-                    if ($i <= 2) :
+                    if ($i <= 2) ://2 permiers avec plus grosse reduc
                         $i++;
 
                         if (isset($prod['image'])) {
@@ -148,7 +148,7 @@ if (!isset($pdo)) {
                             $photo = 'Default.png';
                         }
                 ?>
-
+                            <!--affichage elements bdd-->
                         <a class="promo<?= $i ?>" href="fiche.php?id=<?= $prod['Reference'] ?>">
                             <img src="public/images/bouteilles/<?= $photo ?>">
                             <h2><?= $prod['Nom'] ?></h2>
